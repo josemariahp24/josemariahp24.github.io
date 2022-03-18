@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page_imagenes.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/monoton:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<header>
+  <h1>formularios en HTLM</h1>
+</header>
+<nav>
+	 <ul>
+    <li><a href="estilos_texto.html" target="_blank">estilos de texto</a></li>
+    <li><a href="formularios.html" target="_blank">formularios</a></li>
+    <li><a href="fuentes y animacion.html" target="_blank">fuentes y animaciones</a></li>
+    <li><a href="imagenes.html" target="_blank">imagenes</a></li>
+    <li><a href="listas.html" target="_blank">listas</a></li>
+    <li><a href="tablas.html" target="_blank">tablas</a></li>
+    <li><a href="videos.html" target="_blank">videos</a></li>
+    <li><a href="audio.html">audios</a></li>
+    <li><a href="index.html" target="_blank">index</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>formulario de registro</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed odio dui. Aliquam pharetra nisi nec erat ornare, in consectetur ipsum suscipit. Aenean maximus volutpat erat, sed vestibulum ante malesuada sed. Nunc ut lacus egestas felis commodo auctor. In sapien nibh, finibus nec libero a, ullamcorper laoreet quam. Sed non nulla at mauris finibus molestie. Aenean tempor maximus sollicitudin. Donec vulputate nibh in nisl tempus, sed laoreet magna commodo. Nullam quam leo, iaculis quis lacus at, ultrices tempor arcu.</p>
+    <br>
+   <form action= "procesamiento.html" method="get">
+	  <label for="user">usuario</label>
+	   <input name="user" type="text" id="user" autocomplete="on" size="30" maxlength="100">
+	   <label for="password">contraseña</label>
+	   <input type="password" id="password" name="password">
+	   <input type= "submit" value="enviar">
+    </form>
+  </section>
+  <section>
+    <h2>entrevista con lista desplegable&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed odio dui. Aliquam pharetra nisi nec erat ornare, in consectetur ipsum suscipit. Aenean maximus volutpat erat, sed vestibulum ante malesuada sed. Nunc ut lacus egestas felis commodo auctor. In sapien nibh, finibus nec libero a, ullamcorper laoreet quam. Sed non nulla at mauris finibus molestie. Aenean tempor maximus sollicitudin. Donec vulputate nibh in nisl tempus, sed laoreet magna commodo. Nullam quam leo, iaculis quis lacus at, ultrices tempor arcu.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <form id="form1" name="form1" method="post" action="procesamiento.html">
+      <label for="textfield">nombre:</label>
+      <input type="text" name="textfield" id="textfield">
+		<br><br>
+      <label for="select">país:</label>
+      <select name="select" id="select">
+        <option value="mx">méxico</option>
+        <option value="ca">canada</option>
+        <option value="fr">francia</option>
+        <option value="ar">argentina</option>
+        <option value="eu">estados unidos </option>
+        <option value="al">alemania </option>
+      </select>
+		<br><br>
+      <input type="submit" name="submit" id="submit" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>preguntas con radio button y casilla de verificación&nbsp; &nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed odio dui. Aliquam pharetra nisi nec erat ornare, in consectetur ipsum suscipit. Aenean maximus volutpat erat, sed vestibulum ante malesuada sed. Nunc ut lacus egestas felis commodo auctor. In sapien nibh, finibus nec libero a, ullamcorper laoreet quam. Sed non nulla at mauris finibus molestie. Aenean tempor maximus sollicitudin. Donec vulputate nibh in nisl tempus, sed laoreet magna commodo. Nullam quam leo, iaculis quis lacus at, ultrices tempor arcu.</p>
+    <p>&nbsp;</p>
+    <form id="form2" name="form2" method="post" action="procesamiento.html">
+		genero:
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="radio" name="genero" value="ma" id="genero_0">
+            femenino </label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="genero" value="fe" id="genero_1">
+            masculino </label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="genero" value="ot" id="genero_2">
+            otro</label>
+			  <br>
+			  ¿qué genero te gusta más?
+            <table width="200">
+              <tr>
+                <td><label>
+                  <input type="checkbox" name="musica" value="rc" id="musica_0">
+                  rock</label></td>
+              </tr>
+              <tr>
+                <td><label>
+                  <input type="checkbox" name="musica" value="p" id="musica_1">
+                  pop</label></td>
+              </tr>
+              <tr>
+                <td><label>
+                  <input type="checkbox" name="musica" value="m" id="musica_2">
+                  metal</label></td>
+              </tr>
+              <tr>
+                <td><label>
+                  <input type="checkbox" name="musica" value="rc" id="musica_3">
+                  ranchera</label></td>
+              </tr>
+              <tr>
+                <td><label>
+                  <input type="checkbox" name="musica" value="el" id="musica_4">
+                  electronica</label></td>
+              </tr>
+            </table>
+<br><br>
+            <input type="submit" name="submit2" id="submit2" value="Enviar"></td>
+        </tr>
+      </table>
+      
+    </form>
+  </section>
+  <section>
+    <h2>formularia modificado con css</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed odio dui. Aliquam pharetra nisi nec erat ornare, in consectetur ipsum suscipit. Aenean maximus volutpat erat, sed vestibulum ante malesuada sed. Nunc ut lacus egestas felis commodo auctor. In sapien nibh, finibus nec libero a, ullamcorper laoreet quam. Sed non nulla at mauris finibus molestie. Aenean tempor maximus sollicitudin. Donec vulputate nibh in nisl tempus, sed laoreet magna commodo. Nullam quam leo, iaculis quis lacus at, ultrices tempor arcu.</p>
+    <form id="form3" name="form3" method="post" action="procesamiento.html">
+      <br>
+      <label for="textfield2">nombre:</label>
+      <input type="text" name="textfield2" id="textfield2">
+      <br><br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+		<br><br>
+      <label for="textarea">Text Area:</label>
+      <textarea name="textarea" rows="10" maxlength="158" id="textarea"></textarea>
+		<br><br>
+      <input type="submit" name="submit3" id="submit3" value="Enviar">
+      
+      
+    </form>
+</section>
+  <section>
+    <h2>preguntas de tarea&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed odio dui. Aliquam pharetra nisi nec erat ornare, in consectetur ipsum suscipit. Aenean maximus volutpat erat, sed vestibulum ante malesuada sed. Nunc ut lacus egestas felis commodo auctor. In sapien nibh, finibus nec libero a, ullamcorper laoreet quam. Sed non nulla at mauris finibus molestie. Aenean tempor maximus sollicitudin. Donec vulputate nibh in nisl tempus, sed laoreet magna commodo. Nullam quam leo, iaculis quis lacus at, ultrices tempor arcu.</p>
+    <form id="form4" name="form4" method="post" action="procesamiento.html">
+	  <br>
+		seleccion un color de estos&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <br>
+      <label for="favcolor">Color:</label>
+	<input type="color" id="favcolor" name="favcolor" value="#ff0000">
+      <input name="color" type="color" id="color" autocomplete="off" value="#8A95E8">
+		<br><br>
+		ponga su numero de telefono 
+		<br>
+      <label for="tel">Tel:</label>
+    <input type="tel" name="tel" id="tel">
+		<br><br>
+		ponga su fecha de nacimiento
+		<br>
+    <label for="date">fecha:</label>
+    <input type="date" name="date" id="date">
+		<br><br>
+		coloce el link del video que quiere descargar 
+		<br>
+    <label for="url">Url:</label>
+    <input type="url" name="url" id="url">
+		<br><br>
+		cuantas semanas tiene su bebé 
+		<br>
+    <label for="week">semanas:</label>
+    <input type="week" name="semanas" id="week">
+		<br><br>
+		presione para adjuntar 
+		<br>
+    <label for="fileField">adjuntar:</label>
+    <input type="file" name="fileField" id="fileField">
+    <table width="200">
+		<br><br>
+		quiere continuar con la operacion
+		<br>
+      <tr>
+        <td><label>
+          <input type="radio" name="&iquest;esta de acuerdo?" value="s" id="iquestestadeacuerdo_0">
+          SI</label></td>
+      </tr>
+      <tr>
+        <td><label>
+          <input type="radio" name="&iquest;esta de acuerdo?" value="n" id="iquestestadeacuerdo_1">
+          NO</label></td>
+      </tr>
+    </table>
+<br>
+    <input type="submit" name="submit4" id="submit4" value="Enviar">
+		
+    </form>
+   
+  </section>
+</main>
+<footer>elaborado por jose maria hernandez pestaña&nbsp;</footer>
+</body>
+</html>
