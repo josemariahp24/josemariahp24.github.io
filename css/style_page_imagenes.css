@@ -1,0 +1,167 @@
+@charset "utf-8";
+@import url("../webfonts/hurricane/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap');
+@font-face{
+	font-family: "jose";
+	src:url("../webfonts/Lemon Tea.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header, nav, main, footer {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: auto;
+}
+header {
+    background-color: #BEF17B;
+    color: #CD373C;
+    text-align: center;
+}
+main section img {
+    border-left: 12px solid #FCFCFC;
+    border-right: 12px solid #FCFCFC;
+    border-bottom: 45px solid #FCFCFC;
+    border-top: 12px solid #FCFCFC;
+    margin-top: 20px;
+    width: 82%;
+    height: auto;
+}
+
+nav {
+    background-color: #E4DE93;
+    width: auto;
+    padding: 10 px;
+    height: auto;
+}
+nav ul li {
+    width: 100px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a {
+    list-style-type: none;
+    font-size: 16px;
+    text-decoration: none;
+}
+nav ul li a:link {
+    color: #E5999B;
+}
+nav ul li a:visited {
+    color: #5C1F20;
+}
+nav ul li a:hover {
+    color: #7CFF1F;
+}
+main {
+    background-color: #A0C173;
+    padding: 50px;
+    height: auto;
+}
+main section {
+    padding: 30px;
+    margin: 25px;
+    background-color: #E4DE93;
+    width: auto;
+}
+footer {
+    background-color: #414B33;
+    color: #E4DE93;
+    height: 150px;
+}
+footer h6 {
+    margin: 0 auto;
+    width: 30%;
+}
+#foto_1 {
+    width: 61%;
+    height: auto;
+    border-bottom-width: 10px;
+    border-bottom-color: #353535;
+    border-right-color: #3E3E3E;
+}
+#foto_2 {
+    width: 64%;
+}
+#foto_3 {
+    border: none;
+    width: 20%;
+    margin-left: 20px;
+    float: left;
+}
+.foto_6 {
+    border: none;
+    width: 30%;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.blur {
+    filter: blur(5px);
+}
+.brillo {
+    filter: brightness(20%);
+}
+.contraste {
+    filter: contrast(30%);
+}
+.escala_grises {
+    filter: grayscale(100%);
+}
+.opacidad {
+    filter: opacity(40%);
+}
+.saturacion {
+    filter: saturate(40%);
+}
+.sepia {
+    filter: sepia(100%);
+}
+.inversion {
+    filter: invert(100%);
+}
+#video_1 {
+    width: 453px;
+    height: auto;
+}
+#video_2 {
+    height: auto;
+    width: 500px;
+}
+#video_3 {
+    height: auto;
+    width: 500px;
+}
+main section h2 {
+    font-family: monoton;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+}
+.fuentes_google {
+    font-family: hurricane;
+    font-size: 56px;
+}
+.fuente_google_enlazado{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+}
+.titulo_jose{
+	font-family: "jose";
+}
+.imagen_animacion {
+    width: 16%;
+    height: 16%;
+}
